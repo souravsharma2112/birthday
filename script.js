@@ -18,6 +18,7 @@ slides.forEach((slide,index) => {
 
 var newCount = 0;
 const goNxt = () => {
+
     if (newCount == 5) {
         count = 5;
         newCount = 0;
